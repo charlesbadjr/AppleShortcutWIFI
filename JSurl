@@ -1,0 +1,34 @@
+// this is the bookmark set in safari
+// form name=websLogin
+// username id=user_name name=user_name
+// password id=password name=password
+// input id=login
+document.querySelector("#user_name") document.querySelector("#password")
+
+javascript: 
+ u= 'admin';
+ p= 'charlieJergins';
+ l= 'http://192.168.11.1/index.asp';
+ 
+  if(location!=l)location=l;
+   else{ 
+      g=document.querySelector;
+      
+      ue=(g('user_name'));
+         if(ue){
+             ue.value=u;
+             
+      pe=(g('password'));
+         pe.value = p;
+         
+      b=(g('login'));
+        document.close();
+   if(b)b.click();
+  }
+ };void(0)
+ 
+ <a href="javascript:open('http://www.google.com','targetname','height=500,width=500');void(0);" > Router </a>
+    
+javascript:(function(){open('http://192.168.11.1/index.asp','targetname','height=500,width=500');u='admin';p='charlieJergins';l='http://192.168.11.1/index.asp';if(location!=l)location=l;else{g=document.getElementById;ue=(g('user_name'));if(ue){ue.value=u;pe=(g('password'));pe.value=p;b=(g('login');document.close();if(b)b.click();}}})()
+  
+ javascript:u='admin';p='charlieJergins';l='http://192.168.11.1/index.asp';if(location!=l)location=l;else{g=document.querySelector;ue=(g('user_name'));if(ue){ue.value=u;pe=(g('password'));pe.value=p;b=(g('login'));document.close();if(b)b.click();}}      
